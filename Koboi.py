@@ -30,10 +30,10 @@ def make_request(url, batas_permintaan, exit_event):
 # Minta pengguna memasukkan URL target
 target_url = input("Masukkan URL target: ")
 
-batas_permintaan = 99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999  # Ganti dengan batas permintaan yang Anda inginkan
+batas_permintaan = 999999999999999999999999999999999999999999999999999999999999999999999999999999  # Ganti dengan batas permintaan yang Anda inginkan
 
 # Jumlah thread yang akan digunakan
-jumlah_thread = 100000000000000000000
+jumlah_thread = 100000000
 
 # Membuat dan menjalankan thread-thread
 exit_event = threading.Event()
